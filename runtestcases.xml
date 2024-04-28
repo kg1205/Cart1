@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="com.cart">
+	<listeners>
+		<listener class-name="com.testutilities.Reporting" />
+	</listeners>
+	<test name="cart test">
+		<classes>
+			<class name="com.cart.testcases.Tc_001_Login" />
+		</classes>
+	</test>
+</suite>

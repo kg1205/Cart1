@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="com.cart">
+	<listeners>
+		<listener class-name="com.testutilities.Reporting" />
+	</listeners>
+	<test name="lumacart test">
+		<classes>
+			<class name="com.cart.testcases.Tc_001_Login" />
+		</classes>
+	
+	</test>
+</suite>
